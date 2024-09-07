@@ -29,7 +29,7 @@ body{
 
 .wrapper .main .row{
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .wrapper .main .row .display{
@@ -94,6 +94,9 @@ footer {
     }
     .wrapper{
         height: 468px;
+    }
+    .wrapper .main .row{
+        margin-bottom: 45px;
     }
     .wrapper .main .row .buttons .button button{
         padding: 6px;
