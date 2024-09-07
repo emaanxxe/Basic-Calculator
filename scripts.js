@@ -19,6 +19,7 @@ for(let i=0;i<Btns.length;i++){
             }
 
             else if(btnValue==='='){
+                display.value = display.value.replace(/x/g, '*');
                 display.value = eval(display.value);
             }
 
