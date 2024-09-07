@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Reem Kufi", sans-serif !important;
+}
+
+body{
+    background: #f1f0f0;
+}
+
+.container{
+    max-width: 500px;
+    padding: 0 20px;
+    margin: 90px auto;
+}
+
+.wrapper{
+    width: 100%;
+    height: 515px;
+    background-color: rgb(32, 29, 29);
+    border-radius: 7px;
+    box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.2);
+}
+
+.wrapper .main{
+    padding:27px;
+}
+
+.wrapper .main .row{
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.wrapper .main .row .display{
+    width: 100%;
+    height: 65px;
+    border: none;
+    border-radius: 5px;
+    /*background-color: rgb(109, 200, 67);*/
+    background-color: rgb(139, 136, 136);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 10px 0px inset;
+    padding: 15px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    outline: none;
+}
+
+.wrapper .main .row .buttons {
+    display: flex;
+    flex-wrap: wrap;            /*Allow buttons to wrap on smaller screens */
+    justify-content: center;     /* Center the buttons */
+    /*gap: 10px; Add some spacing between buttons */
+}
+
+.wrapper .main .row .buttons .button{
+    margin-bottom: 15px;
+}
+
+.wrapper .main .row .buttons .button button{
+    padding: 10px;
+    width: 92px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px inset,
+                rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, 
+                rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.wrapper .main .row .buttons .button .equal{
+    width: 195px;
+}
+.wrapper .main .row .buttons .button button:hover{
+    cursor: pointer;
+    background-color: rgb(222, 221, 221);
+    transition: all 0.34s ease;
+}
+
+footer {
+    text-align: center;
+    color: rgb(32, 29, 29);
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 450px){
+    .wrapper{
+        height: 468px;
+    }
+    .wrapper .main .row .buttons .button button{
+        padding: 6px;
+        width: 52px;
+        height: 50px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .wrapper .main .row .buttons .button .equal{
+        width: 118px;
+    }
+}
