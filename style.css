@@ -102,7 +102,9 @@ footer {
         font-size: 15px;
         font-weight: 600;
     }
-
+    .wrapper .main .row .display{
+        font-size: 20px;
+    }
     .wrapper .main .row .buttons .button .equal{
         width: 118px;
     }
